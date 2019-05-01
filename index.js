@@ -1,12 +1,15 @@
 
 // TAKE A NUMBER
+//assign a number to the person, "welcome you are number x".
+//keep track of the number we are passing out.
 
 
-function takeANumber(katzDeliLine, name) {
-	katzDeliLine.push(name)
-	return "Welcome, " + name + ". You are number " + katzDeliLine.length
-	 + " in line.";
-
+var i = 50
+function takeANumber(katzDeliLine) {
+  
+	katzDeliLine.push(++i)
+	return "Welcome, you are number " + i;
+	
 }
 
 // NOW SERVING
